@@ -4,7 +4,6 @@
  * A subarray is a contiguous non-empty sequence of elements within an array.
  */
 
-import java.util.List;
 
 public class Solution_2348 {
     public static long zeroFilledSubarray(int[] nums) {
