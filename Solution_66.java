@@ -10,11 +10,11 @@ public class Solution_66 {
     public static int[] plusOne(int[] digits) {
         int n = digits.length;
         for (int i=n-1; i>0; i--) {
-            if (digits[i]<9) {
+            if (digits[i]<10) {
                 digits[i]++;
                 return digits;
             }else{
-                digits[i]=0;
+                digits[i] = 0;
             }
         }
         int[] new_num = new int[n+1];
@@ -24,7 +24,7 @@ public class Solution_66 {
     }
     public static void main(String[] args) {
         //int[] arr = new int[]{1,2,3,4};
-        int[] arr2 = new int[]{9,9,9,9,9};
+        int[] arr2 = new int[]{0};
         int[] b = plusOne(arr2);
         for (int i = 0; i < b.length; i++) {
             System.out.println(b[i]);
