@@ -9,4 +9,11 @@ public class Solution_1 {
         }
         return nums;
     }
+    public static void main(String[] args) {
+        int[] arr = new int[]{3,2,4};
+        int[] ans = twoSum(arr, 6);
+        for (int i = 0; i < ans.length; i++) {
+            System.out.println(ans[i]);
+        }
+    }
 }
