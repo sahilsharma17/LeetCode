@@ -1,3 +1,8 @@
+/* Leetcode 1539. Kth Missing Positive Number
+ * Given an array arr of positive integers sorted in a strictly increasing order, and an integer k.
+ * Return the kth positive integer that is missing from this array.
+ */
+
 public class Solution_1539 {
     public static int findKthPositive(int[] arr, int k) {
         int j=1, i=0;
